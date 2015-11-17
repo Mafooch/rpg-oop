@@ -12,6 +12,8 @@
 		DDC5829C1BFBD337000B205F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC5829A1BFBD337000B205F /* Main.storyboard */; };
 		DDC5829E1BFBD337000B205F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC5829D1BFBD337000B205F /* Assets.xcassets */; };
 		DDC582A11BFBD337000B205F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC5829F1BFBD337000B205F /* LaunchScreen.storyboard */; };
+		DDC582A91BFBD3F8000B205F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC582A81BFBD3F8000B205F /* Character.swift */; };
+		DDC582AB1BFBD6A2000B205F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC582AA1BFBD6A2000B205F /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DDC5829D1BFBD337000B205F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC582A01BFBD337000B205F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDC582A21BFBD337000B205F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC582A81BFBD3F8000B205F /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		DDC582AA1BFBD6A2000B205F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				DDC5829D1BFBD337000B205F /* Assets.xcassets */,
 				DDC5829F1BFBD337000B205F /* LaunchScreen.storyboard */,
 				DDC582A21BFBD337000B205F /* Info.plist */,
+				DDC582A81BFBD3F8000B205F /* Character.swift */,
+				DDC582AA1BFBD6A2000B205F /* Player.swift */,
 			);
 			path = "rpg-oop";
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC582AB1BFBD6A2000B205F /* Player.swift in Sources */,
+				DDC582A91BFBD3F8000B205F /* Character.swift in Sources */,
 				DDC582991BFBD337000B205F /* ViewController.swift in Sources */,
 				DDC582971BFBD337000B205F /* AppDelegate.swift in Sources */,
 			);
