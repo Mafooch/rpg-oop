@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD6DC5471BFCD01900378F0A /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6DC5461BFCD01900378F0A /* Kimara.swift */; };
+		DD6DC5491BFCD28D00378F0A /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6DC5481BFCD28D00378F0A /* DevilWizard.swift */; };
 		DDC582971BFBD337000B205F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC582961BFBD337000B205F /* AppDelegate.swift */; };
 		DDC582991BFBD337000B205F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC582981BFBD337000B205F /* ViewController.swift */; };
 		DDC5829C1BFBD337000B205F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC5829A1BFBD337000B205F /* Main.storyboard */; };
@@ -14,9 +16,12 @@
 		DDC582A11BFBD337000B205F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC5829F1BFBD337000B205F /* LaunchScreen.storyboard */; };
 		DDC582A91BFBD3F8000B205F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC582A81BFBD3F8000B205F /* Character.swift */; };
 		DDC582AB1BFBD6A2000B205F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC582AA1BFBD6A2000B205F /* Player.swift */; };
+		DDC582AD1BFCCCCF000B205F /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC582AC1BFCCCCF000B205F /* Enemy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD6DC5461BFCD01900378F0A /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		DD6DC5481BFCD28D00378F0A /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 		DDC582931BFBD337000B205F /* rpg-oop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rpg-oop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC582961BFBD337000B205F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDC582981BFBD337000B205F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		DDC582A21BFBD337000B205F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC582A81BFBD3F8000B205F /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		DDC582AA1BFBD6A2000B205F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DDC582AC1BFCCCCF000B205F /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				DDC582A21BFBD337000B205F /* Info.plist */,
 				DDC582A81BFBD3F8000B205F /* Character.swift */,
 				DDC582AA1BFBD6A2000B205F /* Player.swift */,
+				DDC582AC1BFCCCCF000B205F /* Enemy.swift */,
+				DD6DC5461BFCD01900378F0A /* Kimara.swift */,
+				DD6DC5481BFCD28D00378F0A /* DevilWizard.swift */,
 			);
 			path = "rpg-oop";
 			sourceTree = "<group>";
@@ -143,6 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC582AB1BFBD6A2000B205F /* Player.swift in Sources */,
+				DDC582AD1BFCCCCF000B205F /* Enemy.swift in Sources */,
+				DD6DC5491BFCD28D00378F0A /* DevilWizard.swift in Sources */,
+				DD6DC5471BFCD01900378F0A /* Kimara.swift in Sources */,
 				DDC582A91BFBD3F8000B205F /* Character.swift in Sources */,
 				DDC582991BFBD337000B205F /* ViewController.swift in Sources */,
 				DDC582971BFBD337000B205F /* AppDelegate.swift in Sources */,
@@ -295,6 +307,7 @@
 				DDC582A71BFBD337000B205F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

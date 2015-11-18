@@ -22,5 +22,4 @@ class Player: Character {
         
         _name = name
     }
-    
 }
